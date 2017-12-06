@@ -1,0 +1,22 @@
+public class Protagonist extends Character{
+    
+    private String name;
+    
+    public Protagonist (String inputName) {
+        name = inputName;
+        health = 150;
+	strength = 100;
+	defense = 40;
+	attack = .5;
+    }
+
+    private void specialize () {
+	defense -= 15;
+	attack += 15;
+    }
+
+    private void normalize () {
+	defense += 15;
+	attack -= 15;
+    }
+}
