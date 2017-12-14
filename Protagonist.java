@@ -1,4 +1,7 @@
-public class Protagonist extends Character{
+/* error: Protagonist is not abstract and does not override abstract method toString() in Protagonist */
+
+
+public abstract class Protagonist extends Character{
     
     private String name;
     
@@ -16,7 +19,6 @@ public class Protagonist extends Character{
 	attack -= 15;
     }
 
-    public String toString() {
-	return name + ": " + health + " HP";
-    }
+    public abstract String toString();
+    
 }
