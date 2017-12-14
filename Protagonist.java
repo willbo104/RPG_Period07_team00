@@ -1,4 +1,4 @@
-/* error: Protagonist is not abstract and does not override abstract method toString() in Protagonist */
+/* error: Protagonist is not abstract and does not override abstract method toString() in Protagonist  */
 
 
 public abstract class Protagonist extends Character{
