@@ -1,0 +1,11 @@
+public class Monster extends Character{
+
+    public Monster (String inputName) {
+	name = inputName;
+	health = 150;
+	strength = 25 + (int)(40 *Math.random());
+	defense = 15 + (int)(30 * Math.random());
+	attack = .5;
+    }
+}
+

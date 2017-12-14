@@ -1,0 +1,9 @@
+public class Warrior extends Protagonist {
+    
+       super(String inputName) {
+	   health = 200;
+               strength = 150;
+               defense = 65;
+	   attack = .5;
+      }
+}
